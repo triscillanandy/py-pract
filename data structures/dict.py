@@ -12,3 +12,4 @@ print(Dict.get('age'))
 
 myDict = {x:x**3 for x in [1,2,3,4,5,6]}
 print(myDict)
+
