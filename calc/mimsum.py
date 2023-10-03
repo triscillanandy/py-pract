@@ -39,8 +39,8 @@ def smallestSubWithSum(arr, n, x):
 
 
 # Driver program
-arr1 = [2, 3, 1, 2, 4, 3]
-x = 7
+arr1 = [1, 4, 45, 6, 10, 19]
+x = 51
 n1 = len(arr1)
 res1 = smallestSubWithSum(arr1, n1, x)
 print("Not possible") if (res1 == n1 + 1) else print(res1)
