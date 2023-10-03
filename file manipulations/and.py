@@ -11,7 +11,7 @@ def is_anagram(a, b):
 
 
 if __name__ == "__main__":
-	a = "geeksforgees"
+	a = "geeksforgeeks"
 	b = "forgeeksgeeks"
 
 	if is_anagram(a, b):
