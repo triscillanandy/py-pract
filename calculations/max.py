@@ -24,4 +24,4 @@ def max_subarray_sum(arr, window_size):
 
 
 
-print(max_subarray_sum([],4))
+print(max_subarray_sum([1, 2, 5, 2, 8, 1, 5],4))
