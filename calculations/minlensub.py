@@ -1,3 +1,6 @@
+
+#Given an array arr[] of integers and a number x, the task is to find the smallest subarray with a sum greater than the given value. 
+#using sliding technuqe
 def smallest_subarray_with_sum(arr, x):
     n = len(arr)
     min_len = n + 1  # Initialize min_len to a large value
@@ -28,8 +31,8 @@ def smallest_subarray_with_sum(arr, x):
     return min_len, arr[subarray_start:subarray_end + 1]
 
 
-arr = [1, 4, 45, 6, 0, 19]
-x = 51
+arr = [1, 10, 5, 2, 7]
+x = 9
 result_length, result_subarray = smallest_subarray_with_sum(arr, x)
 print("Smallest subarray length with sum > x:", result_length)
 print("Minimum length subarray:", result_subarray)

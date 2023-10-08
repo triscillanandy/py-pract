@@ -16,7 +16,7 @@ def minSubarrayLen(s, nums):
 
     return min_len if min_len != float('inf') else 0
 
-# Example usage:
+
 target_sum = 7
 array = [2, 3, 1, 2, 4, 3]
 result = minSubarrayLen(target_sum, array)

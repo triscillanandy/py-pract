@@ -1,5 +1,5 @@
 # write a function called maxSubArraySum which accepts an array of integers and a number called n.
-# The fn should calculate the maximum sum of n consecutive elements in the array
+# The n should calculate the maximum sum of n consecutive elements in the array
 # using the sliding window technique
 
 def max_subarray_sum(arr, num):
@@ -19,4 +19,4 @@ def max_subarray_sum(arr, num):
     return max_sum
 
 
-print(max_subarray_sum([3,4,5,1,6,1,6,2,8,1,90,0,2,3,6,34], 3))
+print(max_subarray_sum([1, 2, 5, 2, 8, 1,5], 2))
